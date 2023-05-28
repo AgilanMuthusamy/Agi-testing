@@ -1,0 +1,9 @@
+
+public class call {
+
+	public static void main(String[] args) {
+FindPrimeNumber obj = new FindPrimeNumber(;)
+obj
+	}
+
+}

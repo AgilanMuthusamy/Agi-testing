@@ -1,0 +1,11 @@
+package interview.training2;
+
+public class Computer {
+
+public void computerModel() {
+	System.out.println("apple");
+
+}
+	}
+
+

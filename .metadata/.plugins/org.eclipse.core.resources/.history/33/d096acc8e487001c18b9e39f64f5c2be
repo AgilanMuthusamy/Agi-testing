@@ -1,0 +1,37 @@
+package interview.training3;
+
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MergeContact {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriverManager.chromedriver().setup();
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("http://leaftaps.com/opentaps/control/login");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.findElement(By.id("username")).sendKeys("Demosalesmanager");
+		driver.findElement(By.id("password")).sendKeys("crmsfa");
+		driver.findElement(By.xpath("//input[@class='decorativeSubmit']")).click();
+		driver.findElement(By.linkText("CRM/SFA")).click();
+		driver.findElement(By.linkText("Contacts")).click();
+		driver.findElement(By.xpath("//a[text()='Merge Contacts']")).click();
+		driver.findElement(By.xpath("//table[@class='twoColumnForm']/tbody/tr/td[2]/a")).click();
+		Set<String> winSet = driver.getWindowHandles();
+		List<String> winList = new ArrayList<String>(winSet);
+		driver.switchTo().window(winList.get(1));
+		driver.findElement(By.xpath("//table[@class = 'x-grid3-row-table']/tbody/tr/td[3]")).click();
+		driver.switchTo().window(winList.get(0));
+		Thread.sleep(2000);
+
+	}
+
+}

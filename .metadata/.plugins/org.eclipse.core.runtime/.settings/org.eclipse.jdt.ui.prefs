@@ -1,0 +1,13 @@
+content_assist_category_order=org.eclipse.jdt.ui.templateProposalCategory\:0\u0000org.eclipse.jdt.ui.swtProposalCategory\:1\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\:65537\u0000org.eclipse.jdt.ui.javaChainProposalCategory\:3\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\:65539\u0000org.eclipse.jdt.ui.textProposalCategory\:65540\u0000org.eclipse.jdt.ui.javaAllProposalCategory\:65541\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\:65542\u0000
+content_assist_favorite_static_members=org.testng.Assert.*;org.junit.Assert.*;org.junit.Assume.*;org.junit.jupiter.api.Assertions.*;org.junit.jupiter.api.Assumptions.*;org.junit.jupiter.api.DynamicContainer.*;org.junit.jupiter.api.DynamicTest.*;org.mockito.Mockito.*
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.constant.ConstantDesc"><rhs name\="java.lang.String"/></lhs><lhs name\="java.time.temporal.TemporalAmount"><rhs name\="java.time.Duration"/></lhs><lhs name\="utils.ReadAmazonExcel"><rhs name\="utils.ReadAmazonExcel"/></lhs><lhs name\="java.io.File"><rhs name\="java.io.File"/></lhs><lhs name\="java.io.OutputStream"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileOutputStream"/><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.FileOutputStream"/><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Flushable"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.FileOutputStream"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

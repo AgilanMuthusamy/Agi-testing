@@ -1,0 +1,15 @@
+
+public class week1day2 {
+
+	public static void main(String[] args) {
+  int[] numArr = {100,49,3398,34,1,267};
+  
+  int length = numArr.length;
+  System.out.println("length of the array:" + length);
+  
+  
+  
+  
+	}
+
+}

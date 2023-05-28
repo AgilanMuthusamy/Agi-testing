@@ -1,0 +1,36 @@
+package interview.training1;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class CreateContact {
+
+	public static void main(String[] args) {
+		WebDriverManager.chromedriver().setup();
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("http://leaftaps.com/opentaps/control/login");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		WebElement user = driver.findElement(By.id("username"));
+		user.sendKeys("Demosalesmanager");
+		WebElement pass = driver.findElement(By.id("password"));
+		pass.sendKeys("crmsfa");
+		driver.findElement(By.className("decorativeSubmit")).click();
+		driver.findElement(By.xpath("//div[@for = 'crmsfa']/a")).click();
+		driver.findElement(By.linkText("Contacts")).click();
+
+		driver.findElement(By.linkText("Create Contact")).click();
+		driver.findElement(By.id("firstNameField")).sendKeys("agi");
+		driver.findElement(By.id("lastNameField")).sendKeys("M");
+		driver.findElement(By.id("createContactForm_firstNameLocal")).sendKeys("AGI");
+		driver.findElement(By.id("createContactForm_lastNameLocal")).sendKeys("M");
+		driver.findElement(By.name("departmentName")).sendKeys("Selenium");
+		driver.findElement(By.name("description")).sendKeys("Learn Selenium");
+		driver.findElement(By.id("createContactForm_primaryEmail")).sendKeys("agi@gmail.com");
+	}
+
+}

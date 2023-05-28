@@ -1,0 +1,32 @@
+package pages;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WindowType;
+
+import base.BaseClass;
+
+public class Link extends BaseClass {
+	
+	public Link linkCheck(String url) {
+		
+		driver.switchTo().newWindow(WindowType.TAB);
+		driver.navigate().to(url);
+		driver.get(url);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		
+		WebElement text = driver.findElement(By.xpath("(//span[@class='a-price-whole'])[1]"));//(//span[@class="a-price-whole"])[1]
+		text.click();
+		String text2 = text.getText();
+		
+		System.out.println(url+"="+text2);
+		driver.close();
+		return this;
+
+	}
+	
+	
+
+}

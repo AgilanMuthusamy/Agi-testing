@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SeleniumAutomation"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="Chercher"/>
+        <listEntry value="org.system.Computer"/>
+        <listEntry value="week2.day1.XpathClassRooom"/>
+        <listEntry value="week2.day2.CheckBoxes"/>
+        <listEntry value="com.selenium.LoginPage"/>
+        <listEntry value="org.college.Justify"/>
+        <listEntry value="week2.day2.Radio"/>
+        <listEntry value="week2.day2.SalesForceAssignment"/>
+        <listEntry value="week2.day2.DeleteLead"/>
+        <listEntry value="week3.day2.Ajio"/>
+        <listEntry value="week2.day2.EditField"/>
+        <listEntry value="week2.day2.Button"/>
+        <listEntry value="week3.day2.ErailSort"/>
+        <listEntry value="testcase.DuplicateLead"/>
+        <listEntry value="org.system.Desktop"/>
+        <listEntry value="org.system.Hardware"/>
+        <listEntry value="org.college.Flowchart"/>
+        <listEntry value="week1day2"/>
+        <listEntry value="Draggable"/>
+        <listEntry value="week2.day1.DropDownClasssRoom"/>
+        <listEntry value="Droppable"/>
+        <listEntry value="org.college.Student"/>
+        <listEntry value="week2.day2.AcmeTest"/>
+        <listEntry value="testcase.EditLead"/>
+        <listEntry value="org.college.Department"/>
+        <listEntry value="org.college.College"/>
+        <listEntry value="week2.day2.Image"/>
+        <listEntry value="week2.day2.FacebookAssignment"/>
+        <listEntry value="week2.day2.DropDown"/>
+        <listEntry value="MergeContact"/>
+        <listEntry value="testcase.CreateLead"/>
+        <listEntry value="week3.day2.weekFour"/>
+        <listEntry value="Resizable"/>
+        <listEntry value="org.college.Students"/>
+        <listEntry value="CharOccurence"/>
+        <listEntry value="week2.day2.CreateContact"/>
+        <listEntry value="week2.day2.EditLead"/>
+        <listEntry value="FramesAssign"/>
+        <listEntry value="week2.day1.LaunchApplicationJavaAssignment"/>
+        <listEntry value="week3.day2.ErailUnique"/>
+        <listEntry value="Selectable"/>
+        <listEntry value="FindPrimeNumber"/>
+        <listEntry value="testcase.DeleteLead"/>
+        <listEntry value="org.college.AxisBank"/>
+        <listEntry value="org.college.CharacterIndex"/>
+        <listEntry value="org.system.Desktop1"/>
+        <listEntry value="org.college.BankInfo"/>
+        <listEntry value="org.college.Replace"/>
+        <listEntry value="week2.day2.Link"/>
+        <listEntry value="org.college.IgnoreCase"/>
+        <listEntry value="week2.day1.LaunchApplication"/>
+        <listEntry value="org.system.Software"/>
+        <listEntry value="Sortable"/>
+        <listEntry value="week2.day1.LeafTapsApplication"/>
+        <listEntry value="testcase.MergeLead"/>
+        <listEntry value="week2.day2.DuplicateLead"/>
+        <listEntry value="learningjava"/>
+        <listEntry value="week3.day2.RemoveDuplicates"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

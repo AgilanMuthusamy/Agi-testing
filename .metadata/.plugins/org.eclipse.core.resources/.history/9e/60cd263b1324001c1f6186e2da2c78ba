@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class FindPrimeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter the number to validate it as prime or not:");
+		Scanner inputObj = new Scanner(System.in);
+		int number=inputObj.nextInt();
+		if(number%2==0||number%3==0||number%5==0||number%7==0) {
+			
+			System.out.println("Not prime number");
+		}else {
+			System.out.println("prime number");
+		}
+	}
+
+}

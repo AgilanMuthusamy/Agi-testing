@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AmazonProject/drivers&apos; to &apos;driversFake&apos;" description="Rename resource &apos;drivers&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="drivers" name="driversFake" stamp="1664466088131" updateReferences="true"/>
+</session>

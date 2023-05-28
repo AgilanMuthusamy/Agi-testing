@@ -1,0 +1,69 @@
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+
+////FORLOOP
+//		for (int i = 0; i < 10; i++) {
+//			System.out.printf("output number is: %d\n", i);// %d become I here put comma,then\n represents next line }
+//		}
+//
+////WHILELOOOP
+//		int amount = 0;
+//		while (true) {
+//			System.out.println("in the loop");
+//			if (amount == 9) {
+//				break;
+//
+//			}
+//			amount++;
+//			System.out.println("Out Of the loop");
+//		}
+//
+////SCANNER INPUT GIVEN BY USER AT CONSOLE
+//
+//		Scanner scan = new Scanner(System.in);
+//		System.out.println("Giver Your Text Below");
+//		String nextLine = scan.nextLine();
+//		System.out.println("Your Text Is: " + nextLine);
+//
+////SCANNERUSING DOWHILE
+//
+//		int num = 0;
+//		Scanner scan1 = new Scanner(System.in);
+//		do {
+//			System.out.println("ENTER YOUR NUMBER");
+//			num = scan1.nextInt();
+//		} while (num != 77);
+//		System.out.println("Number equal to" + num);
+//
+////SWITCH STATEMENT datatype must be in char,byte,short,int and string
+//
+//		Scanner scan2 = new Scanner(System.in);
+//		System.out.println("Type your String: ");
+//		String nextLine2 = scan2.nextLine();
+//		switch (nextLine2) {
+//		case "Agi":
+//			System.out.println("Agilan java code Head");
+//			break;
+//
+//		case "Mukilan":
+//			System.out.println("Head Of Python");
+//			break;
+//
+//		default:
+//			System.out.println("no related");
+//		}
+//MULTI DIMENSIONAL ARRAY
+		int[][] multi = {{12,4,6},{122,15,19,8},{14,44,22}};
+		for (int i = 0; i < multi.length; i++) {
+			for (int j = 0; j < multi[i].length; j++) {
+				System.out.print(multi[i][j]+"\t");
+				
+			}
+			System.out.println("");
+		}
+	}
+}

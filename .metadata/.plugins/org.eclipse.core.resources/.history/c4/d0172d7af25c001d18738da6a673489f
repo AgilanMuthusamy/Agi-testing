@@ -1,0 +1,23 @@
+import java.util.Iterator;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+
+		for(int i = 0;i<10;i++) {
+			System.out.printf("output number is: %d\n",i);//%d become I here put comma,then\n represents next line
+			}
+		}
+	
+	public static void main1(String[] args) {
+		int amount;
+		while (true) {
+			System.out.println("in the loop");
+		}
+		if (amount==5) {
+			break;
+		}
+		
+	}
+
+}

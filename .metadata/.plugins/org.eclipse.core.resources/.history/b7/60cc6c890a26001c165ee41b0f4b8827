@@ -1,0 +1,22 @@
+package week1.day1;
+
+public class armstrongnumber {
+
+	public static void main(String[] args) {
+		int number = 370;
+		int agilan;
+		int adhav =370;
+		while (number > 0) {
+			agilan = number % 10;
+			adhav = adhav + (agilan * agilan * agilan);
+			number = number / 10;
+		}
+		if (number == adhav) {
+			System.out.println(number + "is a armstrong number");
+		} else {
+			System.out.println(number + "is not armstrong number");
+
+		}
+	}
+
+}

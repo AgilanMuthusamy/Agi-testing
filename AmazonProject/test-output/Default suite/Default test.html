@@ -1,0 +1,1329 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>250/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 05 18:39:06 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>1961 seconds (1961481 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07K21TYMW</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000LFTTPG</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00D3KCKWA</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B004ISVDQK</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8SIBQ</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B004ZDXDGQ</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01KGXGLR6</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001NYX02W</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C5EY8</td>
+<td></td>
+<td>10</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B072LVLMJG</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B004OQI15M</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D2TXJS</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00155500E</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C1U14</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D32GTG</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00ENYG2J2</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D32DPS</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B017L071H6</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00SNBQ7VY</td>
+<td></td>
+<td>8</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07CCG36SD</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00Q6QSB7G</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C0A92</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07C66MLH7</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8UADK</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8WE7K</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C03IU</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B007927CE4</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8SGAY</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8UAWG</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000X1R22K</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001QOGWH4</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01CCQTY24</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00D464VFW</td>
+<td></td>
+<td>11</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000E7XJK2</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00FQSEY3U</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00871XU5G</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000UH4PMM</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B017RKRNDC</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B007926916</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B075886SRD</td>
+<td></td>
+<td>8</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0131KMXGO</td>
+<td></td>
+<td>11</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1BZRJ6</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B003U60HRM</td>
+<td></td>
+<td>10</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00ADTKDXW</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0001P0WMA</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B007924YWM</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C7I6K</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00O9IFWBG</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01A5JY8YE</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8U8SC</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B08ZJN1SGF</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0051HE79C</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0000223PX</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B085FD7N5H</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D2UJ3C</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8ZO36</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B072LVLMJG</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0079253CM</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00O9IGJJ0</td>
+<td></td>
+<td>129</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D30BK2</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B002J116C4</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00155090U</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001AIQAG4</td>
+<td></td>
+<td>8</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C6WJY</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B08H59FWPG</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8SJ0G</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07SZVW98Z</td>
+<td></td>
+<td>8</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B08CJ8C4RD</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0019JMQ0S</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B08LN8H2PC</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01GFPMG6O</td>
+<td></td>
+<td>14</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01HTHDU9Y</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B08H59FWPG</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07BRW42NB</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D2X4GQ</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B004ZDXI66</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00RMW3JXY</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01ASVTN5I</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001ILAFRI</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D32COA</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D30BA2</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001ILCCU6</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000ROB1AW</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D2X4G6</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0085V5UF6</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01M1BMVTX</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8Y52W</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B083BXS1SQ</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B007XULCQG</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001ACM8AW</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B002IK4MPE</td>
+<td></td>
+<td>10</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07BMSZ98R</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B004HL3QNG</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000X2F4D8</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B08696KDZD</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0051AA45U</td>
+<td></td>
+<td>10</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0001K9U82</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01JGQHA3S</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001NYR33Y</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B007XULCQG</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B004VUV8ZQ</td>
+<td></td>
+<td>10</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07VFC41WM</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001NIBJIU</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07BRX29NF</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001NIDF9Q</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00K5MWPXS</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0131KMXGO</td>
+<td></td>
+<td>10</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B017LNRFBA</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000V4K2WG</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0024LK7QK</td>
+<td></td>
+<td>12</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001NYX7UC</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B004YK6ZRE</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00BD0PYH0</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01M9ELAWL</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8UYEK</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C76HQ</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000X2F3RK</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C7ANQ</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B017L071H6</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000NDCVDI</td>
+<td></td>
+<td>8</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C2K9U</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B004ZFC3E2</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001AO115S</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001EQADGK</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B018S5P9N6</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B09NFD6VDR</td>
+<td></td>
+<td>10</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C7I6K</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C7680</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C7ANQ</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C12WQ</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001419BNG</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001W7AVCW</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B075DL766P</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B009Q17QM4</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B003L77XSQ</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B087B6NBHD</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B008HR5WQ0</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C1QEA</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0002YYUQY</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000X2GLEY</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B002LUWPGY</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B003GDIRWQ</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B007VL74I2</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07N87KWC3</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8Y5MC</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00VKC03C2</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0862GYF56</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0000224JE</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B008BT4ODQ</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C0MN6</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B06ZZT3MFS</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01M8O79G1</td>
+<td></td>
+<td>8</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01ASVTKL0</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D2X5MO</td>
+<td></td>
+<td>10</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00DJ4LKSK</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000X2B5V8</td>
+<td></td>
+<td>8</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0002BURNM</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07L8MBX44</td>
+<td></td>
+<td>10</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000VCZXW2</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B004ISHAZ8</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0051ABDKU</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B072LVLMJG</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07FS8DHHK</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B004AOOLA2</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0051AATUA</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8ZP6W</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.com/dp379611072X</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00A9ULZFK</td>
+<td></td>
+<td>12</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B08CRVNT2Z</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B08J84T7ZW</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00O9IGR4W</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00DKYNKPK</td>
+<td></td>
+<td>8</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C5EY8</td>
+<td></td>
+<td>15</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001NYUZRA</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001ILAFRI</td>
+<td></td>
+<td>13</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07V6QFTBJ</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D30DVE</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000XLSJUE</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1BZYXA</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B010Q43VYQ</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B007R9XVVM</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07SYCY2SW</td>
+<td></td>
+<td>8</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07DVGB6R8</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001NYXFB8</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00MXGFK4U</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00AY05GQE</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00R3ASR6Y</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00AE6R026</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00HL9FW8S</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B01MG7EO28</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B005HVYWW4</td>
+<td></td>
+<td>8</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000X29FF6</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07CG2WCV8</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001NYX5DG</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001NYUZRA</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00BD0L10E</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07K14WQSP</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00O7OXIHC</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000X2D0RK</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00H4DACFO</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000X2D0RK</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B007927CPI</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B007XULC70</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B009DO4QAY</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0001OZHS0</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B089S1NC2H</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B002LV3O04</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00S127Y1M</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07K3S23SJ</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07VVJR5WS</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00B1C31UM</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001NYXXCY</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001553NMG</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0006O4AHY</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0051AA45U</td>
+<td></td>
+<td>11</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0825JG1XG</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00BD0PYH0</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001554ZXC</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B010Q45DNS</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07LH467WJ</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00C7QVKOA</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00FH226SA</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000E7XJGQ</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D32GTG</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07NBRDK7L</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0051A9VEK</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0000223PX</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B004HL3QNG</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07FTPC3R7</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D2YJ24</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B093WBZWCR</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D2X3VC</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001ACRACS</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000L7V4RA</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D2YJ06</td>
+<td></td>
+<td>7</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B017LNR1SC</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000UYZ9GG</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B007C1QNL0</td>
+<td></td>
+<td>9</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y8ZO40</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00N3LTM8E</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00QU7LWCC</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00C11TCJQ</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B003GDIRQC</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B000Y19V3W</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B001D3435Q</td>
+<td></td>
+<td>11</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0001K9U82</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B007924YFO</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B07RM3K2QK</td>
+<td></td>
+<td>5</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B00D464TUE</td>
+<td></td>
+<td>4</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+<tr>
+<td title='testcases.VerifyLink.runVerifyLogin()'><b>runVerifyLogin</b><br>Test class: testcases.VerifyLink<br>Parameters: https://www.amazon.fr/dp/B0019N7VV8</td>
+<td></td>
+<td>6</td>
+<td>testcases.VerifyLink@cb0755b</td></tr>
+</table><p>
+</body>
+</html>
